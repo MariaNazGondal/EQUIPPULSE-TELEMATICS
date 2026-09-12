@@ -1,0 +1,6 @@
+{
+  "name": "EquipPulse Telematics - Subscription Due & Billing Ledger",
+  "description": "Connecting construction to eliminate downtime. Clean telematics fleet data, evaluate subscription SLA terms, calculate error-free amounts due in DKK, EUR, and USD, and export official EquipPulse PDF receipts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
