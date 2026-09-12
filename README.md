@@ -133,35 +133,8 @@ npm -v
 
 ---
 
-## 📤 Publishing to GitHub
 
-### Option A: Using the AI Studio UI (Recommended)
-1. In Google AI Studio Build, click on the **Settings** or **Export** menu in the top navigation.
-2. Select **Export to GitHub** (or **Download ZIP**).
-3. Connect your GitHub account and authorize repository creation.
-4. AI Studio will automatically push the entire repository with all commits and documentation.
 
-### Option B: Using Git Command Line
-
-If you are cloning or pushing manually from your terminal:
-
-```bash
-# 1. Initialize git repository (if not already initialized)
-git init -b main
-
-# 2. Add all project files
-git add .
-
-# 3. Create your initial commit
-git commit -m "feat: initial release of EquipPulse Telematics billing ledger and receipt generator"
-
-# 4. Create a new repository on GitHub (via github.com or GitHub CLI)
-# Example using GitHub CLI:
-# gh repo create equippulse-telematics --public --source=. --remote=origin --push
-
-# Or link an existing empty GitHub repository:
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-git push -u origin main
 ```
 
 ---
